@@ -1,35 +1,6 @@
 [
   {
-    "remote": "github",
-    "repository": "AashiqJ/android_device_xiaomi_msm8956-common",
-    "target_path": "device/xiaomi/msm8956-common",
-    "revision": "o"
-  },
-  {
-    "remote": "github",
-    "repository": "AashiqJ/android_kernel_xiaomi_msm8956",
-    "target_path": "kernel/xiaomi/msm8956",
-    "revision": "oreo"
-  },
-  {
-    "remote": "github",
-    "repository": "AashiqJ/proprietary_vendor_xiaomi",
-    "target_path": "vendor/xiaomi",
-    "revision": "lineage-15.0"
-  },
-  {
-    "remote": "github",
-    "repository": "AashiqJ/android_hardware_cyanogen",
-    "target_path": "hardware/cyanogen",
-    "revision": "oreo"
-  },
-  {
-    "remote": "github",
-    "repository": "AashiqJ/android_packages_resources_devicesettings",
-    "target_path": "packages/resources/devicesettings",
-    "revision": "lineage-15.0"
+    "repository": "android_device_xiaomi_msm8956-common",
+    "target_path": "device/xiaomi/msm8956-common"
   }
 ]
-
-
-
