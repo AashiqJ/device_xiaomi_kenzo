@@ -16,15 +16,22 @@
 $(call inherit-product, device/xiaomi/kenzo/full_kenzo.mk)
 
 
-# Inherit some common AOSCP stuff.
-$(call inherit-product, vendor/aoscp/configs/common_full_phone.mk)
+# Inherit some common AOSP stuff.
+TARGET_ARCH := arm64
+TARGET_DENSITY := xxhdpi
+TARGET_BOOT_ANIMATION_RES := 1080
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+
+# Boot animation
+TARGET_SCREEN_WIDTH := 1080
+TARGET_SCREEN_HEIGHT := 1920
 
 
 # Set those variables here to overwrite the inherited values.
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := kenzo
-PRODUCT_NAME := aoscp_kenzo
+PRODUCT_NAME := aosp_kenzo
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Redmi Note 3
 TARGET_VENDOR := Xiaomi
